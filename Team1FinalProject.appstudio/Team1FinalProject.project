@@ -50,6 +50,14 @@
             "movieapi",
             "movieapi.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Registration",
+            "Registration.json"
+          ]
         }
       ],
       "configxml": null,
