@@ -42,7 +42,14 @@
             "GenreSelect",
             "GenreSelect.json"
           ]
-
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "movieapi",
+            "movieapi.json"
+          ]
         }
       ],
       "configxml": null,
