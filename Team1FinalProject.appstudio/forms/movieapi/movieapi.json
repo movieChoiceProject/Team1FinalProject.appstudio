@@ -9,7 +9,53 @@
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "inpt.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "btn.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "imgPost.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "lblTit.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "txtview.json"
+      ]
+    }
+  ],
   "class": "",
   "designHeight": 0,
   "designWidth": 0,
