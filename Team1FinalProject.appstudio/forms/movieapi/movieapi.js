@@ -21,7 +21,7 @@ function onXHRLoad() {
     }
 
 btn.onclick=function() {
-  movie_enter = inptSearch.value
+  movie_enter = inpt.value
   requestURL = "http://www.omdbapi.com/?t=" + movie_enter + "&apikey=7c82f582"
   callAPI(requestURL)
   }
