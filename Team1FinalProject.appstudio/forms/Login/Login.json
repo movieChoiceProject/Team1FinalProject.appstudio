@@ -16,24 +16,6 @@
         "forms",
         "Login",
         "Elements",
-        "txtUsername.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Login",
-        "Elements",
-        "txtPassword.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Login",
-        "Elements",
         "btnLogin.json"
       ]
     },
@@ -43,7 +25,25 @@
         "forms",
         "Login",
         "Elements",
-        "btnHome1.json"
+        "btnRegister.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Login",
+        "Elements",
+        "inptPassword.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Login",
+        "Elements",
+        "inptUsername.json"
       ]
     }
   ],

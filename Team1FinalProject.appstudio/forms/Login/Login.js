@@ -11,8 +11,8 @@ let cjfPass = "gorams21"
 Login.onshow = function() {}
 
 btnLogin.onclick = function() {
-    netID = txtUsername.value
-    pw = txtPassword.value
+    netID = inptUsername.value
+    pw = inptPassword.value
     //username and password are not blank
     if (netID == "") {
         NSB.MsgBox("Username cannot be blank.")
@@ -35,7 +35,7 @@ btnLogin.onclick = function() {
                     results = JSON.parse(req.responseText)
                     // Compare the password that got returned from the query to the user entered password.
                      if (pw == results) {
-                       ChangeForm(Home)
+                       ChangeForm(GenreSelect)
                     }
                     else {
                      NSB.MsgBox("Passwords do not match.")
@@ -47,6 +47,6 @@ btnLogin.onclick = function() {
         }
     }
 }
-btnHome1.onclick = function() {
-    ChangeForm(HomePage)
+btnRegister.onclick = function() {
+    ChangeForm(Register)
 }
