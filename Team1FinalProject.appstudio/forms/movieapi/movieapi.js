@@ -1,29 +1,41 @@
-{
-  "Title": "Matrix",
-  "Year": "1993",
-  "Rated": "N/A",
-  "Released": "01 Mar 1993",
-  "Runtime": "60 min",
-  "Genre": "Action, Drama, Fantasy, Thriller",
-  "Director": "N/A",
-  "Writer": "Grenville Case",
-  "Actors": "Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon",
-  "Plot": "Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix \"dies\" and finds ...",
-  "Language": "English",
-  "Country": "Canada",
-  "Awards": "1 win.",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BYzUzOTA5ZTMtMTdlZS00MmQ5LWFmNjEtMjE5MTczN2RjNjE3XkEyXkFqcGdeQXVyNTc2ODIyMzY@._V1_SX300.jpg",
-  "Ratings": [
-    {
-      "Source": "Internet Movie Database",
-      "Value": "7.9/10"
+let movie_enter = ''
+let requestapi = "http://www.omdbapi.com/?t=" + movie_enter + "&apikey=7c82f582"
+
+function onXHRLoad() {
+    let message = ""
+    let apiData = JSON.parse(this.responseText)
+    
+    lblTit.value = "Error: Movie doesn't exist."
+
+    lblTit.value = apiData.Title
+    lblTit2.value = apiData.Title
+    lblTit3.value = apiData.Title
+    
+    message = message + "Release Date: "+ apiData.Released + "\n"
+    message = message + "\nRuntime: " + apiData.Runtime + "\n"
+    message = message + "\nGenre: " + apiData.Genre + "\n"
+    message = message + "\nDirector: " + apiData.Director + "\n"
+    message = message + "\nActors: " + apiData.Actors + "\n"
+    message = message + "\nPlot: " + apiData.Plot
+    
+    txtview.value = message
+    imgPost.src = apiData.Poster
     }
-  ],
-  "Metascore": "N/A",
-  "imdbRating": "7.9",
-  "imdbVotes": "139",
-  "imdbID": "tt0106062",
-  "Type": "series",
-  "totalSeasons": "N/A",
-  "Response": "True"
+
+btn.onclick=function() {
+  movie_enter = inptSearch.value
+  requestURL = "http://www.omdbapi.com/?t=" + movie_enter + "&apikey=7c82f582"
+  callAPI(requestURL)
+  }
+  
+function callAPI(requestURL) {
+    var xhttp = new XMLHttpRequest();
+
+    xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)
+    xhttp.addEventListener('load', onXHRLoad)
+    xhttp.send()
+    
 }
+
+
+
