@@ -8,8 +8,6 @@ function onXHRLoad() {
     lblTit.value = "Error: Movie doesn't exist."
 
     lblTit.value = apiData.Title
-    lblTit2.value = apiData.Title
-    lblTit3.value = apiData.Title
     
     message = message + "Release Date: "+ apiData.Released + "\n"
     message = message + "\nRuntime: " + apiData.Runtime + "\n"
@@ -36,6 +34,3 @@ function callAPI(requestURL) {
     xhttp.send()
     
 }
-
-
-
