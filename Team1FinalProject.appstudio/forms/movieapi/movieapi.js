@@ -7,7 +7,6 @@ function onXHRLoad() {
     
     lblTit.value = "No movie found, Try another one"
 
-    lblTit.value = apiData.Title
     
     message = message + "Release Date: "+ apiData.Released + "\n"
     message = message + "\nRuntime: " + apiData.Runtime + "\n"
