@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "white",
+  "background": "pink",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -44,24 +44,6 @@
         "movieapi",
         "Elements",
         "txtview.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "movieapi",
-        "Elements",
-        "Image1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "movieapi",
-        "Elements",
-        "Image2.json"
       ]
     }
   ],
