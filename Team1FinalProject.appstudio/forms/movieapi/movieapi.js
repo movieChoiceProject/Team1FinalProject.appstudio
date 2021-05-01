@@ -31,12 +31,5 @@ function callAPI(requestURL) {
     xhttp.send()
     
 }
-Image1.onclick=function(){
-  window.location.href = "https://www.amazon.com/Amazon-Video/b?ie=UTF8&node=2858778011";
-}
 
-
-Image2.onclick=function(){
-  window.location.href = "https://www.youtube.com/";
-}
 
