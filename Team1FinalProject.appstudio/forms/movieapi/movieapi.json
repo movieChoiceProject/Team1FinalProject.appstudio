@@ -43,15 +43,6 @@
         "forms",
         "movieapi",
         "Elements",
-        "lblTit.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "movieapi",
-        "Elements",
         "txtview.json"
       ]
     }

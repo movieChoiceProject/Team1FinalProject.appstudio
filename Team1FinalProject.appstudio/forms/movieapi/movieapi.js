@@ -5,9 +5,7 @@ function onXHRLoad() {
     let message = ""
     let apiData = JSON.parse(this.responseText)
     
-    lblTit.value = "No movie found, Try another one"
 
-    
     message = message + "Release Date: "+ apiData.Released + "\n"
     message = message + "\nRuntime: " + apiData.Runtime + "\n"
     message = message + "\nGenre: " + apiData.Genre + "\n"
