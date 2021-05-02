@@ -1,6 +1,6 @@
 let elbNetID = "elb22116"
 let elbPw = "cozmox-5jibsI-sethyg"
-let genres = ["Science Fiction", "Fantasy", "Documentary", "Action"]
+let genres = []
 let movies = ""
 
 GenreSelect.onshow = function() {

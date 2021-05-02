@@ -50,6 +50,25 @@
             "movieapi",
             "movieapi.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Register",
+            "Register.json"
+          ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Email",
+            "Email.json"
+          ]
+>>>>>>> Stashed changes
         }
       ],
       "configxml": null,
