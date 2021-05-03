@@ -33,3 +33,27 @@ function callAPI(requestURL) {
 }
 
 
+
+movieapi.onshow=function(){
+    hmbr.clear()
+    hmbr.addItem("Login")
+    hmbr.addItem("GenreSelect")
+}
+
+
+
+hmbr.onclick=function(s) {
+    if (typeof(s) == "object") {
+       return
+    }
+    switch(s) {
+        case "Login":
+            ChangeForm(Login)
+            break
+        case "GenreSelect":
+            ChangeForm(GenreSelect)
+            break
+    }
+}
+
+

@@ -45,6 +45,15 @@
         "Elements",
         "txtview.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "movieapi",
+        "Elements",
+        "hmbr.json"
+      ]
     }
   ],
   "class": "",
