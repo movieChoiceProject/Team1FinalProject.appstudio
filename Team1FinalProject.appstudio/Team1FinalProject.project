@@ -31,14 +31,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "Home",
-            "Home.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "GenreSelect",
             "GenreSelect.json"
           ]
